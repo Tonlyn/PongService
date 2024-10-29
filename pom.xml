@@ -88,7 +88,7 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>com.tek.pongservice.PongServiceApplication</mainClass>
-                    <skip>true</skip>
+                    <!--<skip>true</skip>-->
                 </configuration>
                 <executions>
                     <execution>
