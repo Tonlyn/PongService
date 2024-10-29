@@ -1,0 +1,10 @@
+spring.application.name: pong-service
+
+logging.level.root: INFO
+logging.file.name: logs/${spring.application.name}.log
+
+
+rate-limiter:
+  permits-per-second: 1       # 每秒许可数
+  warmup-period: 0            # 预热时间（秒）
+  timeout: 0                  # 获取许可的超时时间（秒）
